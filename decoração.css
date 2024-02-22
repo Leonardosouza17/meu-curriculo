@@ -1,0 +1,13 @@
+h1,h2,h3,h4,h5,h6{font-family: arial;
+font-size:x-large; 
+text-align: center; }
+body{background-color:#3d85c6;margin:0% auto;}
+p{font-style:italic;color: azure;
+ text-align: center;
+    
+}
+li{color: azure;text-align: center;}
+.menu{text-align: right; font-size: large;
+font-style: italic;}
+.text{text-align: center;}
+
