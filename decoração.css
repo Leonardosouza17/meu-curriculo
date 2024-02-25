@@ -1,17 +1,21 @@
-h1,h2,h3,h4,h5,h6{ text-align: center;}
+h1,h2,h3,h4,h5,h6{ text-align: center;
+                  color: white;
+}
 
-.body{background-color:#e0ffff;
+.body{background-color:black;
     margin:auto; 
     position: relative;
     font-family: helvetica;
     }
 
-p{text-align: center;}
+p{text-align: center;
+  color: white;
+}
 
 
 
 .header{
-    background-color: gray;
+    background-color:black;
     position: sticky;
     top: 0;
 }
@@ -23,24 +27,51 @@ p{text-align: center;}
 .menu ul{
     list-style: none;
     text-align: center;
-}
     
-    .menu li{display: inline;
+}
+.menu li{display: inline;
              cursor: pointer;
             padding: 30px;
-            text-align: center;
             
-         }
+        }
     
-    .menu{position:absolute;
+    
+         .menu{position:absolute;
         right: 60px; 
         bottom: 15px;
+        
+        }
+
+        .alone{color: azure;
+      border-radius: 50px;
+      cursor: pointer;
+      background-color: 	#1e90ff;
+      margin: 4px 2px;
+      padding: 15px 25px;
 }
-.alone{color: azure;}
-
-
-
 a{
     text-decoration: none;
 }
+
+.escrita{color: white; text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+
+.link{color: #ed9121;}
+
+::-webkit-scrollbar{width: 12px;
+    background-color:black
+}
+
+::-webkit-scrollbar-thumb{background-color: #1e90ff;
+    border-radius: 6px;
+}
+
+
+
+
+
+    
+
 
