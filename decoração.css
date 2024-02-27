@@ -1,19 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300;400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 h1,h2,h3,h4,h5,h6{ text-align: center;
                   color: white;
+                  text-transform: uppercase;
+                  font-family: "Kalam", cursive;
+                  font-size: x-large;
+                  margin: 2rem
 }
+                  
+                
 
+/* Body */
 .body{background-color:black;
     margin:auto; 
     position: relative;
-    font-family: helvetica;
+    font-family:"Barlow Condensed", sans-serif;
+    font-size: large;
+    ;
     }
 
+    /* Body */
 p{text-align: center;
   color: white;
+  margin: 0 30%;
+  
 }
 
-
-
+/* Header*/
 .header{
     background-color:black;
     position: sticky;
@@ -33,6 +47,7 @@ p{text-align: center;
              cursor: pointer;
             padding: 30px;
             
+            
         }
     
     
@@ -48,11 +63,14 @@ p{text-align: center;
       background-color: 	#1e90ff;
       margin: 4px 2px;
       padding: 15px 25px;
+      
+      
 }
+/* Ancora */
 a{
     text-decoration: none;
 }
-
+/* Classe para título e parágrafo */
 .escrita{color: white; text-align: center;
     margin: 0;
     padding: 0;
@@ -60,6 +78,7 @@ a{
 
 .link{color: #ed9121;}
 
+/* Scrollbar  */
 ::-webkit-scrollbar{width: 12px;
     background-color:black
 }
@@ -68,19 +87,27 @@ a{
     border-radius: 6px;
 }
 
-ol{
-    margin: 0;
-    padding: 0;
+::-webkit-scrollbar-track {
+    background: transparent;}
+
+
+    /* lista ordenada */
+    ol{
+    margin: 0 30%;
+    padding: 0 5%;
+    
     
 }
-
+    /* lista não ordenada */
 .lista{.lista 
-     display: flex: ;;
+     display: flex: ;
     justify-content: center;
 }
 
+/* div */
 .container{text-align: center;}
 
+/* tabela */
 .tabela{color: white;
     text-align: center;
     margin: 0 auto; 
@@ -88,6 +115,7 @@ ol{
     border: 1px solid white; 
     padding: 30px; 
 }
+
 
 
 
