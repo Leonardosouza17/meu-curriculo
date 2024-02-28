@@ -13,7 +13,10 @@ h1,h2,h3,h4,h5,h6{ text-align: center;
                   text-transform: uppercase;
                   font-family: "Kalam", cursive;
                   font-size: x-large;
-                  margin: 2rem
+                  margin: 2rem;
+                  
+                  
+                
 }
                   
                 
@@ -32,9 +35,13 @@ h1,h2,h3,h4,h5,h6{ text-align: center;
 p{text-align: center;
   color: white;
   margin: 0 30%;
-
+  line-height: 1.5;
 
 }
+  
+
+
+
 
 /* Header*/
 .header{
@@ -55,12 +62,10 @@ p{text-align: center;
     text-align: center;
     
 }
-.menu li{display: inline;
-             cursor: pointer;
-            padding: 30px;
-            
-            
-        }
+.menu li {display: inline;
+    cursor: pointer;             
+    padding: 5px 20px 0 20px;
+   }
     
     
          .menu{position:absolute;
@@ -74,14 +79,12 @@ p{text-align: center;
       cursor: pointer;
       background-color: #1e90ff;
       margin: 4px 2px;
-      padding: 15px 25px;
-      
-      
-      
+      padding: 10px 25px;
 }
 /* Ancora */
 a{
     text-decoration: none;
+    
 }
 /* Classe para título e parágrafo */
 .escrita{color: white; text-align: center;
@@ -131,12 +134,12 @@ a{
 
 .Cursos{ color: white;
     text-align: justify;
-    margin: 20px;
+    margin: 40px;
     list-style: none;
+    line-height: 1.5;
+    text-align: center;}
     
-
-
-}
+    
 
 
 
