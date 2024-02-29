@@ -23,7 +23,7 @@ h1,h2,h3,h4,h5,h6{ text-align: center;
 
 /* Body */
 .body{background-color:black;
-    margin: 0 auto; 
+    margin: 0 40px 40px 0; 
     position: relative;
     font-family:"Barlow Condensed", sans-serif;
     font-size: large;
@@ -36,25 +36,24 @@ p{text-align: center;
   color: white;
   margin: 0 30%;
   line-height: 1.5;
+  
 
 }
   
-
-
-
-
 .header{
     background-color:black;
     position: sticky;
     top: 0;
     justify-content: space-between;
     align-items: center;
-
+    
+    
 }
 
 .img{width: 90px;
     margin-left: 50px;
     margin-top: 20px;
+    
 
 }
   
@@ -67,24 +66,34 @@ p{text-align: center;
 .menu li {display: inline;
     cursor: pointer;             
     padding: 5px 20px 0 20px;
+    
+
    }
     
     
          .menu{position:absolute;
         right: 60px; 
         bottom: 15px;
+        margin: 0 10px;
+        justify-content: center;
+        display: flex;
         
         }
 
         .alone{color: azure;
+            color: azure;
       border-radius: 50px;
       cursor: pointer;
       background-color: #1e90ff;
       margin: 4px 2px;
       padding: 10px 25px;
-}
+
+        }
+      
+      
+
 /* Ancora */
-a{
+a { 
     text-decoration: none;
     
 }
@@ -125,21 +134,14 @@ a{
 /* div */
 .container{text-align: center;}
 
-/* tabela */
-.tabela{color: white;
-    text-align: center;
-    margin: 0 auto; 
-    border-collapse: collapse;
-    border: 1px solid white; 
-    padding: 30px; 
-}
-
-.Cursos{ color: white;
+ .Cursos{ color: white;
     text-align: justify;
     margin: 40px;
     list-style: none;
     line-height: 1.5;
-    text-align: center;}
+    text-align: center;
+    
+}
     
 
 
@@ -147,8 +149,25 @@ body , html{
     scroll-behavior: smooth;
 
 }
+.zoom-anchor{transition: transform 0.3s ease;}
+.zoom-anchor:hover{
+    transform: scale(1.1);
+}
+
+.section{display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+    align-items: center;
+}
 
 
+.imagens{height: 300px;
+    float:left;
+    margin-right: px;
+    border-radius: 10px;
+    margin:40px 
+    
+}    
 
     
 
